@@ -1,0 +1,7 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  color: #1d1b20;
+  background: #f7f8f5;
+  font-family: Roboto, Arial, sans-serif;
+}

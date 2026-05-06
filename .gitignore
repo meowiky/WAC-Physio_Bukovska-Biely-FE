@@ -1,0 +1,7 @@
+node_modules/
+.stencil/
+dist/
+loader/
+www/
+.openapi.json
+coverage/
