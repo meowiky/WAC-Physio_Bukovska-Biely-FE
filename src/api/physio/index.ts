@@ -352,7 +352,6 @@ export class PhysioApi {
         const payload = await response.json();
         message = payload.message || payload.error || message;
       } catch (_) {
-        // Some error responses are intentionally empty.
       }
       throw new Error(message);
     }
